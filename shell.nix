@@ -1,6 +1,6 @@
 with import <nixpkgs> {};
 mkShell {
-  buildInput = with pkgs; [
+  buildInputs = with pkgs; [
     cargo
     rustc
     gcc
